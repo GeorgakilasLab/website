@@ -1,0 +1,299 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-family: "Courier New", Courier, monospace;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: black;
+    color: rgb(255, 255, 0);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    font-family: "Courier New", Courier, monospace;
+}
+
+header img {
+    height: 50px;
+    margin-right: 20px;
+}
+
+nav a {
+    background: none;
+    border: none;
+    color: rgb(255, 255, 0);
+    margin: 0 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "Courier New", Courier, monospace;
+}
+
+nav button {
+    background: none;
+    border: none;
+    color: white;
+    margin: 0 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.background-image {
+    position: fixed;
+    /* Ensures the image stays fixed behind content */
+    top: 0;
+    /* Align to the top of the screen */
+    left: 0;
+    /* Align to the left of the screen */
+    width: 100%;
+    /* Cover the full width */
+    height: 100%;
+    /* Cover the full height */
+    background-image: url('/Users/panos/Desktop/CFCAF8AB01C65276.jpg');
+    /* Specify your image */
+    background-size: cover;
+    /* Scale the image to cover the entire area */
+    background-position: center;
+    /* Center the image to avoid awkward cropping */
+    background-repeat: no-repeat;
+    /* Prevent the image from tiling */
+    z-index: -1;
+    /* Place the background behind all content */
+}
+
+/* Home section */
+#home {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+}
+
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #a7a7a761;
+    color: #333;
+    font-family: "Courier New", Courier, monospace;
+}
+
+/* Home section */
+#home {
+    max-width: 1800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+}
+
+/* Headings */
+h1 {
+    color: #2c3e50;
+    font-size: 28px;
+    margin-bottom: 10px;
+    font-family: "Courier New", Courier, monospace;
+}
+
+/* Paragraphs */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify;
+    font-family: "Courier New", Courier, monospace;
+}
+
+h4 {
+    line-height: 1.6;
+    text-align: justify;
+    font-family: "Courier New", Courier, monospace;
+}
+
+/* Add spacing between sections */
+h1+p {
+    margin-bottom: 20px;
+    font-family: "Courier New", Courier, monospace;
+}
+
+/* Content Wrapper */
+.content-wrapper {
+    display: flex;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 20px;
+
+}
+
+/* Image Container */
+.img-container {
+    flex: 1;
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+
+}
+
+.img-container img {
+    max-width: 100px;
+    border-radius: 50%;
+    font-family: "Courier New", Courier, monospace;
+}
+
+/* Text Container */
+.text-container {
+    flex: 2;
+    padding-left: 20px;
+}
+
+.text-container h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.text-container h3 {
+    margin: 5px 0;
+    font-size: 18px;
+    color: #555;
+}
+
+.text-container p {
+    font-size: 14px;
+    color: #666;
+}
+
+.text-container a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+    font-weight: bold;
+}
+
+#about {
+    max-width: 1800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+#publications_section {
+    max-width: 1800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+#news {
+    max-width: 1800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+#software {
+    max-width: 1800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.content-wrapper_soft {
+    display: flex;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 20px;
+
+}
+
+#contact {
+    max-width: 1800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.content-wrapper_cont {
+    display: flex;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 20px;
+
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.blinking-underscore {
+    background-color: rgba(225, 255, 0, 0.495);
+    /* Same color as the link text */
+    animation: blink 1s infinite step-start;
+}
+
+/* Animation to blink the underscore */
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+
+
+/* The blinking underscore */
+.blinking-underscore {
+    display: inline-block;
+    font-weight: bold;
+    animation: blink 1s infinite;
+}
+
+.divider-fade {
+    border: none;
+    height: 1px;
+    background: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.15), transparent);
+    margin: 48px auto;
+    width: 80%;
+}

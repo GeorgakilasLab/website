@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeorgakilasLab</title>
+    <link rel="stylesheet" href="xaibiolab.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <!-- Logo -->
+        <img src="images/w_logo.svg" alt="Website Logo">
+        <a href="../xaibiolab.html"
+            style="text-decoration: none;background: none; border: none; color: rgb(255, 255, 0); margin: 0 10px; cursor: pointer; font-weight: bold; font-size: 18px;">GeorgakilasLab</a>
+        <!-- Navigation Buttons -->
+        <nav style="margin-left: auto;">
+            <nav style="margin-left: auto;">
+                <a href="../xaibiolab.html" style="text-decoration: none;">Home</a>
+                <a href="about.html" style="text-decoration: none;">About Us</a>
+                <a href="publications.html" style="text-decoration: none;">Publications</a>
+                <a href="software.html" style="text-decoration: none;">Software & Training</a>
+                <a href="news.html" style="text-decoration: none;">News</a>
+                <a href="contact.html" style="text-decoration: none;">Contact Us</a>
+            </nav>
+    </header>
+
+    <div id="software">
+
+        <hr class="divider-fade">
+        <h1>OUR GitHub PAGE</h1>
+        <hr class="divider-fade">
+
+        <p>All software and training material is actively maintained in our <a
+                href="https://github.com/GeorgakilasLab">GitHub
+                environment</a>. Please star our repositories if you find them useful and do not forget to leave
+            feedback! Software improvement is a continuous process.</p>
+
+        <hr class="divider-fade">
+        <h1>SCIENTIFIC SOFTWARE</h1>
+        <hr class="divider-fade">
+
+        <div class="content-wrapper_soft">
+            <div class="img-container">
+                <img src="./images/apeach.png" alt="Software logo" />
+            </div>
+            <div class="text-container">
+                <h1>aPEAch</h1>
+                <p><b>Short Description: </b>The emergence of next-generation sequencing (NGS) signified a revolution in
+                    biology research by capturing the significance of DNA loci and RNA molecules on a genome-wide scale.
+                    The complexity and volume of NGS data highlight the need for robust and user-friendly computational
+                    tools. aPEAch, is an automated pipeline for end-to-end analysis of DNA
+                    and RNA sequencing assays, including small RNA sequencing. Implemented in Python, it allows users to
+                    customize the analysis and results, handling single or multiple replicates in batches, while also
+                    automating advanced unsupervised learning analyses. aPEAch offers quality control reports, fragment
+                    size distribution plots, and intermediate files supporting reproducibility and interoperability,
+                    along with publication-ready visualizations.</p>
+                <p><b>Tags: </b>HTS data analysis; Pipeline; Transcriptomics; Epigenomics.</p>
+                <p><b>Language: </b>Python.</p>
+                <p><b>OS: </b>Linux.</p>
+                <p><b>Containerization: </b>N/A.</p>
+                <p><b>Documentation: </b><a href="https://gitlab.com/a5465/apeach">https://gitlab.com/a5465/apeach</a>.
+                </p>
+                <p><b>Repository: </b><a href="https://gitlab.com/a5465/apeach">https://gitlab.com/a5465/apeach</a>.</p>
+                <p><b>Publication: </b><a
+                        href="https://doi.org/10.3390/biology13070492">https://doi.org/10.3390/biology13070492</a>.</p>
+            </div>
+        </div>
+
+        <div class="content-wrapper_soft">
+            <div class="img-container">
+                <img src="./images/bmintyFull.png" alt="Software logo" />
+            </div>
+            <div class="text-container">
+                <h1>bMINTY</h1>
+                <p><b>Short Description: </b>bMINTY is a locally deployed web application with an intuitive user
+                    interface, for structured management of post-alignment workflow data outputs. bMINTY supports
+                    metadata for studies, assays, and analysis assets, including workflows, genome annotation versions,
+                    and cell-level entities for single-cell assays. Users may export query results in RO-Crate format,
+                    providing machine readable data packages and metadata. These packages can be included as
+                    supplementary material with each publication, accompanied by analysis code deposited in public
+                    repositories for downstream ad hoc analyses. Together, these practices can promote transparency,
+                    efficient FAIR-aligned reuse of published post-alignment data.</p>
+                <p><b>Tags: </b>HTS data and metadata management; FAIR; Reusability; RO-Crates.</p>
+                <p><b>Language: </b>Python.</p>
+                <p><b>OS: </b>Linux; Windows; macOS.</p>
+                <p><b>Containerization: </b>Docker.</p>
+                <p><b>Documentation: </b><a
+                        href="https://georgakilaslab.github.io/bMINTY">https://georgakilaslab.github.io/bMINTY</a>.
+                </p>
+                <p><b>Repository: </b><a
+                        href="https://github.com/GeorgakilasLab/bMINTY">https://github.com/GeorgakilasLab/bMINTY</a>.
+                </p>
+                <p><b>Publication: </b><a
+                        href="https://doi.org/10.1093/nargab/lqag081">https://doi.org/10.1093/nargab/lqag081</a>.</p>
+            </div>
+        </div>
+
+        <div class="content-wrapper_soft">
+            <div class="img-container">
+                <img src="./images/cnnamon.svg" alt="Software logo" />
+            </div>
+            <div class="text-container">
+                <h1>CNNAMON</h1>
+                <p><b>Short Description: </b>CNNAMON is a computational framework focused on developing explainable
+                    Convolutional Neural Networks (CNNs) for genomic and epigenomic data analysis. It aims to identify
+                    complex regulatory patterns from high-throughput sequencing data, including single-cell ATAC-seq and
+                    bulk epigenomic assays. By integrating deep learning with model interpretability techniques, CNNAMON
+                    seeks to uncover biologically meaningful genomic features, characterize regulatory mechanisms, and
+                    provide transparent, data-driven insights into gene regulation.</p>
+                <p><b>Tags: </b>CNN; XAI; Epigenomics; Genomics.</p>
+                <p><b>Language: </b>Python.</p>
+                <p><b>OS: </b>Linux.</p>
+                <p><b>Containerization: </b>N/A.</p>
+                <p><b>Documentation: </b><a
+                        href="https://georgakilaslab.github.io/CNNAMON">https://georgakilaslab.github.io/CNNAMON</a>.
+                </p>
+                <p><b>Repository: </b><a
+                        href="https://github.com/GeorgakilasLab/CNNAMON">https://github.com/GeorgakilasLab/CNNAMON</a>.
+                </p>
+                <p><b>Publication: </b>N/A.</p>
+            </div>
+        </div>
+
+        <div class="content-wrapper_soft">
+            <div class="img-container">
+                <img src="./images/software.png" alt="Software logo" />
+            </div>
+            <div class="text-container">
+                <h1>NUTMEG</h1>
+                <p><b>Short Description: </b>NUTMEG is a computational framework designed to facilitate the integration
+                    and analysis of heterogeneous single-cell and spatial omics data using Graph Neural Networks (GNNs).
+                    It focuses on combining complementary molecular information from single-cell RNA sequencing,
+                    chromatin accessibility profiling (scATAC-seq), and spatial transcriptomics to investigate cellular
+                    heterogeneity and gene regulatory relationships. By leveraging graph-based representations and deep
+                    learning, NUTMEG aims to uncover complex molecular interactions, identify biologically meaningful
+                    patterns, and advance systems-level understanding of cellular organization and function.</p>
+                <p><b>Tags: </b>GNN; XAI; Single-cell omics; Multi-omics.</p>
+                <p><b>Language: </b>Python.</p>
+                <p><b>OS: </b>Linux.</p>
+                <p><b>Containerization: </b>N/A.</p>
+                <p><b>Documentation: </b><a
+                        href="https://github.com/GeorgakilasLab/NUTMEG">https://github.com/GeorgakilasLab/NUTMEG</a>.
+                </p>
+                <p><b>Repository: </b><a
+                        href="https://github.com/GeorgakilasLab/NUTMEG">https://github.com/GeorgakilasLab/NUTMEG</a>.
+                </p>
+                <p><b>Publication: </b>N/A.</p>
+            </div>
+        </div>
+
+        <div class="content-wrapper_soft">
+            <div class="img-container">
+                <img src="./images/raw2ready.svg" alt="Software logo" />
+            </div>
+            <div class="text-container">
+                <h1>raw2ready</h1>
+                <p><b>Short Description: </b>raw2ready is a modular computational framework designed to streamline the
+                    harmonization, transformation, and exploration of heterogeneous experimental datasets, with a
+                    particular focus on industrial biotechnology and bioprocessing applications. It provides tools for
+                    data parsing, integration, time-series alignment, user-defined calculations, and interactive
+                    visualization. By incorporating AI-driven data exploration capabilities, raw2ready facilitates the
+                    transformation of fragmented experimental data into structured, analysis-ready datasets, supporting
+                    reproducible research, advanced analytics, predictive modeling, and digital twin applications.</p>
+                <p><b>Tags: </b>Data harmonization; Vizualization; Data integration; Biomanufacturing; Agentic data
+                    exploration.</p>
+                <p><b>Language: </b>Python.</p>
+                <p><b>OS: </b>Linux.</p>
+                <p><b>Containerization: </b>N/A.</p>
+                <p><b>Documentation: </b><a
+                        href="https://georgakilaslab.github.io/raw2ready">https://georgakilaslab.github.io/raw2ready</a>.
+                </p>
+                <p><b>Repository: </b><a
+                        href="https://github.com/GeorgakilasLab/raw2ready">https://github.com/GeorgakilasLab/raw2ready</a>.
+                </p>
+                <p><b>Publication: </b>N/A.</p>
+            </div>
+        </div>
+
+        <hr class="divider-fade">
+        <h1>TRAINING MATERIAL</h1>
+        <hr class="divider-fade">
+
+        <div class="content-wrapper_soft">
+            <div class="img-container">
+                <img src="./images/single-cell.png" alt="Software logo" />
+            </div>
+            <div class="text-container">
+                <h1>Workshop on Single-Cell RNA Sequencing Data Analysis</h1>
+                <p><b>Short Description: </b>This hands-on workshop introduces participants to the fundamental concepts
+                    and computational methods used in single-cell RNA sequencing (scRNA-seq) data analysis. Through a
+                    combination of theoretical lectures and practical exercises, participants explore essential
+                    analytical steps, including data preprocessing, highly variable gene identification, dimensionality
+                    reduction, cell clustering, and cell-type annotation. The workshop is organized into three
+                    interactive sessions and provides reproducible Python-based Jupyter notebooks, example datasets, and
+                    educational materials, enabling participants to develop practical skills in analyzing and
+                    interpreting single-cell transcriptomic data.</p>
+                <p><b>Tags: </b>Single-cell omics; Transcriptomics; Pre-processing; HVG detection; Clustering; Cell-type
+                    annotation; Interpretation.</p>
+                <p><b>Language: </b>Python.</p>
+                <p><b>OS: </b>Linux.</p>
+                <p><b>Repository: </b><a
+                        href="https://github.com/GeorgakilasLab/Workshop_scRNAseq_Analysis">https://github.com/GeorgakilasLab/Workshop_scRNAseq_Analysis</a>.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+<footer style="background-color: black; color: white; text-align: center; padding: 10px;">
+    © GeorgakilasLab 2025
+</footer>
+
+</html>
