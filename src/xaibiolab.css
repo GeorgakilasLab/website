@@ -149,7 +149,7 @@ h1+p {
 }
 
 .img-container img {
-    max-width: 100px;
+    max-width: 300px;
     border-radius: 50%;
     font-family: "Courier New", Courier, monospace;
 }
