@@ -15,7 +15,7 @@
     // 2. Set default Google Consent Mode v2 states
     // If user previously accepted, grant analytics_storage; otherwise default to denied
     gtag('consent', 'default', {
-        'analytics_storage': savedConsent === 'granted' ? 'granted' : 'denied',
+        'analytics_storage': savedConsent === 'denied' ? 'denied' : 'granted',
         'ad_storage': 'denied',
         'ad_user_data': 'denied',
         'ad_personalization': 'denied'
